@@ -22,5 +22,6 @@ Web portal:
 Unix DST files:
 > "~/DST/startCluster.sh"
 this installs and starts the Unix dedicated server (reboots every night at 4AM as well as restarts for updates)
+
 > "/etc/Init.d/svcCluster.sh"
 this starts the server when the PC starts, it also restarts the servers called from the web portal.
