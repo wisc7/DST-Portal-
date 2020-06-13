@@ -1,23 +1,23 @@
-#This file provides instructions on how to install DST on a clean install of debian.  it is not a script, but a mix of instructions with commands to run. 
+> This file provides instructions on how to install DST on a clean install of debian.  it is not a script, but a mix of instructions with commands to run. (These instructions can pretty much be used for any dedicated server though, just get the APID from the steam site: https://developer.valvesoftware.com/wiki/Dedicated_Servers_List and change the forced folder location. (then figure out the start up commands for the server)
 
-#Instructions are commented out user entry to update is in <> brackets.
+> #Instructions are commented out user entry to update is in <> brackets.
 
-#From an empty VM (debian): from the standard user account:
+> #From an empty VM (debian): from the standard user account:
 
 
-#login as root
+> #login as root
 
 su
 
 <YourRootPassword>
 
-#install sudo
+> #install sudo
 
 apt-get install sudo 
 
 /sbin/adduser <your user account> sudo
 
-#(exit SU then exit the regular user and relog in to the server again)
+> #(exit SU then exit the regular user and relog in to the server again)
 
 exit 
 
@@ -25,19 +25,19 @@ exit
 
 <relog/SSH in to debian server again with the regualar user that now has SUDO access.>
 
-#install steamcmd instructions below mostly from: https://developer.valvesoftware.com/wiki/SteamCMD#Linux
+> #install steamcmd instructions below mostly from: https://developer.valvesoftware.com/wiki/SteamCMD#Linux
 
-#create a new user:
+> #create a new user:
 
 sudo useradd -m steam
 
-#configure the account to have a password.
+> #configure the account to have a password.
 
 passwd steam
 
-#<set a strong steam password - this is required by the portal>
+> #<set a strong steam password - this is required by the portal>
 
-#Add non free repos to debian.
+> #Add non free repos to debian.
 
 sudo nano /etc/apt/sources.list 
 
