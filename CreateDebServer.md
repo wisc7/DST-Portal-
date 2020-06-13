@@ -31,6 +31,11 @@ exit
 
 sudo useradd -m steam
 
+#configure the account to have a password.
+
+passwd steam
+
+#<set a strong steam password - this is required by the portal>
 
 #Add non free repos to debian.
 
