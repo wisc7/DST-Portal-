@@ -38,7 +38,7 @@ passwd steam
 > #<set a strong steam password - this is required by the portal>
 
 > #Add non free repos to debian. (you could pick another one closer to you but were only dling steam from here so not to big an issue)
-> # only do one of the following option 1/2
+> #only do one of the following option 1/2
 
 > Option 1:
 
