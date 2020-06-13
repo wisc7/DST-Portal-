@@ -51,4 +51,4 @@ sudo -iu steam
 
 bash
 
-./steamcmd +login anonymous +force_install_dir /home/steam/DST +app_update 343050 +quit
+steamcmd +login anonymous +force_install_dir /home/steam/DST +app_update 343050 +quit
