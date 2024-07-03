@@ -37,6 +37,8 @@ passwd steam
 
 > #<set a strong steam password - this is required by the portal>
 
+older versions of debian
+-----------------------------------------------------------------------------
 > #Add non free repos to debian. (you could pick another one closer to you but were only dling steam from here so not to big an issue)
 > #only do one of the following option 1/2
 
@@ -59,6 +61,13 @@ sudo apt update
 sudo dpkg --add-architecture i386
 
 sudo apt install lib32gcc1 steamcmd 
+-------------------------------------------------------------------------------------
+
+debian bookworm
+--------------------------------------------------------------------------------------
+sudo apt update; sudo apt install software-properties-common; sudo apt-add-repository non-free; sudo dpkg --add-architecture i386; sudo apt update
+sudo apt install steamcmd
+--------------------------------------------------------------------------------------
 
 sudo -iu steam
 
