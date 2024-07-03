@@ -1,4 +1,4 @@
-> recomended to read this as raw in github rather than code, as code comments out some of the text. 
+> it is recomended that you read this file as "raw "in github rather than "code", as "code" comments out some of the text betwee < >. 
 
 > This file provides instructions on how to install DST on a clean install of debian.  it is not a script, but a mix of instructions with commands to run. (These instructions can pretty much be used for any dedicated server though, just get the APID from the steam site: https://developer.valvesoftware.com/wiki/Dedicated_Servers_List and change the forced folder location. (then figure out the start up commands for the server)
 
@@ -17,7 +17,7 @@ su
 
 apt-get install sudo 
 
-/sbin/adduser <your user account> sudo
+/sbin/adduser < your user account > sudo
 
 > #(exit SU then exit the regular user and relog in to the server again)
 
