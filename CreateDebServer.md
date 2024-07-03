@@ -15,7 +15,7 @@ su
 
 apt-get install sudo 
 
-/sbin/adduser <your user account> sudo
+/sbin/adduser /<your user account/> sudo
 
 > #(exit SU then exit the regular user and relog in to the server again)
 
