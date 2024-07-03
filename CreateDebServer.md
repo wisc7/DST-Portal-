@@ -1,3 +1,5 @@
+> recomended to read this as raw in github rather than code, as code comments out some of the text. 
+
 > This file provides instructions on how to install DST on a clean install of debian.  it is not a script, but a mix of instructions with commands to run. (These instructions can pretty much be used for any dedicated server though, just get the APID from the steam site: https://developer.valvesoftware.com/wiki/Dedicated_Servers_List and change the forced folder location. (then figure out the start up commands for the server)
 
 > #Instructions are commented out user entry to update is in <> brackets.
