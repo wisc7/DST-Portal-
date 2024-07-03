@@ -11,7 +11,7 @@
 
 su
 
-<YourRootPassword>
+< YourRootPassword >
 
 > #install sudo
 
@@ -48,9 +48,9 @@ older versions of debian
 
 sudo nano /etc/apt/sources.list 
 
-<add the following line to the end of the file:  deb http://http.us.debian.org/debian stable main contrib non-free >
+< add the following line to the end of the file:  deb http://http.us.debian.org/debian stable main contrib non-free >
 
-<save and exit file>
+< save and exit file >
 
 > Option 2: 
 
